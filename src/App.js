@@ -99,7 +99,57 @@ function App() {
       confidence:'0.8'
     },
     {
-
+      text:"हमारे Magnum Big Shot Mascara",
+      suggestions:[],
+      confidence:'0.9'
+    },
+    {
+      text:"पलकों का पूरा रंग",
+      suggestions:[],
+      confidence:'0.8'
+    },{
+      text:"मस्कारा",
+      suggestions:[],
+      confidence:'0.9'
+    },{
+      text:"पलकों को बढ़ाने",
+      suggestions:[],
+      confidence:'0.8'
+    },{
+      text:"बदलने",
+      suggestions:[],
+      confidence:'0.7'
+    },{
+      text:"विशेष मिश्रण",
+      suggestions:[],
+      confidence:'0.7'
+    },{
+      text:"बोल्ड और नाटकीय",
+      suggestions:[],
+      confidence:'0.8'
+    },{
+      text:"पोषण",
+      suggestions:[],
+      confidence:'0.7'
+    },{
+      text:"स्वस्थ और सुंदर पलकों",
+      suggestions:[],
+      confidence:'0.8'
+    },
+    {
+      text:"संदेश",
+      suggestions:[],
+      confidence:'0.7'
+    },
+    {
+      text:"बोल्ड और बड़ी पलकों",
+      suggestions:[],
+      confidence:'0.8'
+    },
+    {
+      text:"हैरान करने",
+      suggestions:[],
+      confidence:'0.7'
     }
   ]
 
@@ -227,7 +277,6 @@ function App() {
           replaceTarget={replaceTarget}
         />
       );
-
       currentEntry = target.find((item) => item.id === currentEntry.next);
     }
 

@@ -8,10 +8,10 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+# RUN npm install
 
 # Copy the rest of the application code
-COPY . .
+# COPY . .
 
 # Build the React app
 RUN npm run build
